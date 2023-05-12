@@ -33,7 +33,7 @@ section.coluna {
 
 section > img {
     /* Especifica a largura e a altura de uma imagem*/
-    width: 50%;
+    width: 100%;
     /*indica a distância na parte inferiror do conteúudo*/
     padding-bottom: 10px;
 }
