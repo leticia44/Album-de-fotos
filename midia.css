@@ -8,5 +8,17 @@
     Grandes telas: acima de 1200px
 */
 
-/*  Tamanho de
-@midia screen
+/*  Tamanho de tablets*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+    section.coluna {
+        flex: 1 1 50%;
+    }
+}
+
+/* Tamanho de ipad*/
+@media screen and (min-width: 992px) {
+    section.coluna {
+        flex:1 1 25%
+    }
+}
+ 
