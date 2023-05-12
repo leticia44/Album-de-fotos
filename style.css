@@ -25,7 +25,14 @@ main#album {
 }
 
 section.coluna {
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     flex: 1 1 100%;
     padding: 0px 5px;
+}
+
+section > img {
+    /* Especifica a largura e a altura de uma imagem*/
+    width: 100px;
+    /*indica a distância na parte inferiror do conteúudo*/
+    padding-bottom: 10px;
 }
