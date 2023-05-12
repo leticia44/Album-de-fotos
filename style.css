@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-* {
+ * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -21,7 +21,7 @@ header {
 main#album {
     /*Renderiza os elementos*/
     display: flex;
-    /*Coloca o conteúdo em linha e não permite a quebra de linha*/
+    /*Coloca o conteúdo em linha e não permite a quebra de linha.*/
     flex-flow: row wrap;
 }
 
@@ -33,7 +33,7 @@ section.coluna {
 
 section > img {
     /* Especifica a largura e a altura de uma imagem*/
-    width: 100px;
+    width: 50%;
     /*indica a distância na parte inferiror do conteúudo*/
     padding-bottom: 10px;
 }
